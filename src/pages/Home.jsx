@@ -13,7 +13,7 @@ const Home = () => {
       const response = await axios.get(
         `https://gk-new-mern-portfolio-25-backend.onrender.com/api/contact/getContacts`
       );
-      /*  const response = await axios.get(
+      /* const response = await axios.get(
         "http://localhost:5000/api/contact/getContacts"
       ); */
 
