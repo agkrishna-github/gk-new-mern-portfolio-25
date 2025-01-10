@@ -49,7 +49,7 @@ const Header = () => {
       >
         Contact
       </Link>
-      <div className="text-black">Portfolio 2</div>
+      <div className="text-black">Portfolio 3</div>
     </section>
   );
 };
