@@ -11,11 +11,13 @@ const Home = () => {
   useEffect(() => {
     const getContacts = async () => {
       const response = await axios.get(
-        `https://gk-new-mern-portfolio-25-backend.onrender.com/api/contact/getContacts`
+        "https://gk-new-mern-portfolio-25-backend.onrender.com/api/contact/getContacts"
       );
       /* const response = await axios.get(
         "http://localhost:5000/api/contact/getContacts"
-      ); */
+      ); 
+      
+      */
 
       console.log(response);
       setContacts(response?.data?.AllContacts);
