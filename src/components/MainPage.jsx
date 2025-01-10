@@ -33,8 +33,8 @@ const MainPage = () => {
           />
         </h3>
 
-        <section className="flex gap-5 flex-wrap  text-2xl  text-[#78e687ea]">
-          <span>
+        <section className="flex gap-5 flex-wrap text-2xl text-[#78e687ea]">
+          <span className="elements">
             <ImHtmlFive2 />
           </span>
           <span>
