@@ -9,6 +9,7 @@ import { SiNodedotjs } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import Typewriter from "typewriter-effect";
+import portImage from "../images/portfolioimg.png";
 
 new Typewriter("#typewriter", {
   strings: ["Hello", "World"],
@@ -64,7 +65,15 @@ const MainPage = () => {
         </section>
       </div>
       <div className="flex-1 h-[100%] flex justify-center items-center">
-        <div className="w-[70%] h-[70%]  rotate-45 bg-gradient-to-r from-[#E0C3FC] to-[#091e79] -translate-y-10 rounded-xl"></div>
+        <div className="w-[70%] h-[70%]  rotate-45 bg-gradient-to-r from-[#E0C3FC] to-[#091e79] -translate-y-0 rounded-xl ">
+          <div className="w-[95%] h-[95%] flex justify-center items-center">
+            <img
+              src={portImage}
+              alt="A G KRISHNA IMAGE"
+              className="-rotate-45 w-full h-auto object-cover"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );

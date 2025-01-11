@@ -38,7 +38,7 @@ const Home = () => {
 
       <HeroPage>
         <Header />
-        {contacts && contacts?.map((contact, i) => <div>{contact?.name}</div>)}
+        {/* {contacts && contacts?.map((contact, i) => <div>{contact?.name}</div>)} */}
         <MainPage />
       </HeroPage>
     </>
