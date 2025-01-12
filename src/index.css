@@ -57,3 +57,26 @@ input {
     background-position: 200% center;
   }
 }
+
+
+.project-cat {
+
+  border: 2px solid #ffd700;
+
+
+}
+
+.project-cat-active {
+  outline-style: solid;
+  outline-color: #ffd700;
+  outline-width: 4px;
+  outline-offset: -4px;
+  box-shadow: 2px 2px 12px 3px #fff;
+
+
+}
+
+.project-border {
+  border: 3px solid #fff;
+  border-radius: 10px;
+}

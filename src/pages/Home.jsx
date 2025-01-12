@@ -4,6 +4,8 @@ import Header from "../components/Header";
 import MainPage from "../components/MainPage";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Technologies from "../components/Technologies";
+import Projects from "../components/Projects";
 
 const Home = () => {
   const [contacts, setContacts] = useState(null);
@@ -41,6 +43,8 @@ const Home = () => {
         {/* {contacts && contacts?.map((contact, i) => <div>{contact?.name}</div>)} */}
         <MainPage />
       </HeroPage>
+      <Technologies />
+      <Projects />
     </>
   );
 };
