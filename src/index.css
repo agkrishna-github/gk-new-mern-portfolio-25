@@ -80,3 +80,33 @@ input {
   border: 3px solid #fff;
   border-radius: 10px;
 }
+
+.border-radial {
+  border-top: 3px solid rgba(255, 215, 0, 0.8);
+  border-right: 3px solid rgba(255, 215, 0, 0.6);
+  border-bottom: 3px solid rgba(255, 215, 0, 0.4);
+  border-left: 3px solid rgba(255, 215, 0, 0.2);
+  transition: all 0.5s ease-in;
+}
+
+.contact-box:hover {
+  border: 3px solid rgb(255, 215, 0);
+  box-shadow: 2px 2px 12px 5px #fff;
+  cursor: pointer;
+
+}
+
+.active {
+  background-color: #1E3A8A !important;
+}
+
+
+
+.contact-input:focus {
+
+  outline-style: solid;
+  outline-color: #ffd700;
+  outline-width: 4px;
+  outline-offset: -4px;
+  box-shadow: 2px 2px 12px 3px #fff;
+}

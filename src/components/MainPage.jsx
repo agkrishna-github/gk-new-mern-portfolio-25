@@ -19,7 +19,11 @@ new Typewriter("#typewriter", {
 const MainPage = () => {
   return (
     <section className="w-[85%] mx-auto h-[calc(100vh-100px)] flex justify-center items-center flex-wrap gap-x-5">
-      <div className="flex-1 h-[100%] flex flex-col justify-center gap-y-10">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="300"
+        className="flex-1 h-[100%] flex flex-col justify-center gap-y-10"
+      >
         <h3 className="text-white font-medium text-xl ">👋 Hello, I am</h3>
         <h2 className="text-5xl font-bold animate-charcter">GOPALAKRISHNA A</h2>
 
@@ -64,7 +68,11 @@ const MainPage = () => {
           </span>
         </section>
       </div>
-      <div className="flex-1 h-[100%] flex justify-center items-center">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="300"
+        className="flex-1 h-[100%] flex justify-center items-center"
+      >
         <div className="w-[70%] h-[70%]  rotate-45 bg-gradient-to-r from-[#E0C3FC] to-[#091e79] -translate-y-0 rounded-xl ">
           <div className="w-[95%] h-[95%] flex justify-center items-center">
             <img

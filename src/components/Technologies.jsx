@@ -5,8 +5,13 @@ const Technologies = () => {
   return (
     <section className="h-screen py-3 bg-gradient-to-r from-[#263b9b] to-[#E0C3FC]">
       <div className="w-[85%] mx-auto">
-        <h3 className=" text-3xl text-[#FEE715FF] mb-5">Technologies</h3>
-        <div className="min-h-[80%] p-2 shadow-lg shadow-black rounded">
+        <h3 data-aos="fade-right" className=" text-3xl text-[#FEE715FF] mb-5">
+          Technologies
+        </h3>
+        <div
+          data-aos="fade-left"
+          className="min-h-[80%] p-2 shadow-lg shadow-black rounded"
+        >
           <p className="px-3 py-5 text-white text-xl font-bold">
             Here are Techlogies and Frameworks I have been working on
           </p>

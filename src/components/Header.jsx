@@ -5,10 +5,18 @@ const Header = () => {
   return (
     <section className="bg-[rgba(65,65,119,0.3)] shadow-lg">
       <div className="w-[85%] mx-auto flex flex-wrap gap-x-5 justify-between  items-center  h-[90px]">
-        <div className="text-yellow-300 text-2xl font-bold">
+        <div
+          data-aos="fade-right"
+          data-aos-delay="200"
+          className="text-yellow-300 text-2xl font-bold"
+        >
           <Link to="home">Portfolio</Link>
         </div>
-        <div className="flex gap-x-5 text-yellow-200">
+        <div
+          data-aos="fade-left"
+          data-aos-delay="300"
+          className="flex gap-x-5 text-yellow-200"
+        >
           <Link
             to="home"
             spy={true}

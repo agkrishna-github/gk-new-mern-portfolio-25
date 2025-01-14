@@ -1,7 +1,7 @@
 const ProjectsComp = ({ project }) => {
   return (
-    <div className="flex flex-col gap-5 p-2 w-[250px] min-h-[200px] bg-[#422057FF] rounded-lg">
-      <p className=" p-5 h-[130px] bg-slate-200 text-lime-950 leading-8 rounded-lg font-semibold text-xl">
+    <div className="flex flex-col gap-5 p-2 w-[200px] min-h-[150px] bg-[#422057FF] rounded-lg">
+      <p className=" p-3 h-[120px] bg-slate-200 text-lime-950 leading-8 rounded-lg font-semibold text-md">
         {project?.title}
       </p>
 

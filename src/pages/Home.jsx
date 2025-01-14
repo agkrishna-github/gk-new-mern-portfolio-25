@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Technologies from "../components/Technologies";
 import Projects from "../components/Projects";
+import Education from "../components/Education";
+import Contact from "../components/Contact";
 
 const Home = () => {
   const [contacts, setContacts] = useState(null);
@@ -45,6 +47,8 @@ const Home = () => {
       </HeroPage>
       <Technologies />
       <Projects />
+      <Education />
+      <Contact />
     </>
   );
 };
