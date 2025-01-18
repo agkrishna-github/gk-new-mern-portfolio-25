@@ -15,8 +15,8 @@ const Contact = () => {
 
   return (
     <section
-      className="bg-gradient-to-r from-[#0d1121] to-[#5b288a] h-screen border-2 border-orange-600  flex justify-center items-center"
-      id="contact"
+      className="bg-gradient-to-r from-[#0d1121] to-[#5b288a] h-screen xs:h-auto  flex justify-center items-center"
+      name="contact"
     >
       <div className="w-5/6 mx-auto  py-5 text-white">
         <h2
@@ -25,7 +25,7 @@ const Contact = () => {
         >
           Contact Me
         </h2>
-        <div className="flex w-5/6 mx-auto justify-around gap-10">
+        <div className="flex xs:flex-col w-5/6 mx-auto justify-around gap-10">
           <div data-aos="fade-up" className="my-5 flex flex-col gap-5">
             <div className="p-5 flex flex-col gap-y-4  items-center border-radial contact-box rounded-lg">
               <div className="text-center">
@@ -82,6 +82,7 @@ const Contact = () => {
               <input
                 type="text"
                 id="name"
+                autoComplete="off"
                 className="p-4 w-full rounded-lg contact-input"
                 placeholder="Enter Your Name"
                 value={name}
@@ -92,6 +93,7 @@ const Contact = () => {
               <input
                 type="email"
                 id="email"
+                autoComplete="off"
                 className="p-4 w-full rounded-lg contact-input"
                 placeholder="Enater Your Email"
                 value={email}
@@ -102,6 +104,7 @@ const Contact = () => {
               <input
                 type="tel"
                 id="mobile"
+                autoComplete="off"
                 className="p-4 w-full rounded-lg contact-input"
                 placeholder="Enter Your Mobile Number"
                 value={mobile}
@@ -111,6 +114,7 @@ const Contact = () => {
 
               <textarea
                 id="message"
+                autoComplete="off"
                 className="p-4 w-full rounded-lg  outline-orange-400 border-0 contact-input"
                 cols="40"
                 rows="5"

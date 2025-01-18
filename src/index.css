@@ -21,10 +21,11 @@ h3 {
   padding: 0;
   box-sizing: border-box;
 }
-
+/* 
 body {
   border: 3px red solid;
-}
+
+} */
 
 body,
 input {
@@ -109,4 +110,9 @@ input {
   outline-width: 4px;
   outline-offset: -4px;
   box-shadow: 2px 2px 12px 3px #fff;
+}
+
+.toggleItem svg{
+  color: rgb(203, 227, 47);
+  font-size: x-large;
 }

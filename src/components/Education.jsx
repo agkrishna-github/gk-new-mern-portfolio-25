@@ -10,11 +10,11 @@ const Education = () => {
   return (
     <section
       className="flex flex-col gap-y-2 justify-center items-center bg-gradient-to-r from-[#263b9b] to-[#E0C3FC] "
-      id="education"
+      name="education"
     >
       <h2
         data-aos="fade-right"
-        className="w-[85%] text-[#FEE715FF] mt-10 pt-12 text-3xl"
+        className="w-[85%] text-[#FEE715FF] mt-10 xs:mt-2 pt-12 text-3xl"
       >
         Education
       </h2>

@@ -18,17 +18,19 @@ new Typewriter("#typewriter", {
 
 const MainPage = () => {
   return (
-    <section className="w-[85%] mx-auto h-[calc(100vh-100px)] flex justify-center items-center flex-wrap gap-x-5">
+    <section className="w-[85%] mx-auto xs:w-full xs:p-2 h-[calc(100vh-100px)] flex justify-center items-center xs:flex-col xs:gap-y-8 flex-wrap gap-x-5">
       <div
         data-aos="fade-up"
         data-aos-delay="300"
-        className="flex-1 h-[100%] flex flex-col justify-center gap-y-10"
+        className="flex-1 h-[100%] flex flex-col justify-center gap-y-10 xs:w-[100%] xs:justify-start xs:pt-5"
       >
         <h3 className="text-white font-medium text-xl ">👋 Hello, I am</h3>
-        <h2 className="text-5xl font-bold animate-charcter">GOPALAKRISHNA A</h2>
+        <h2 className="text-5xl font-bold animate-charcter xs:text-3xl">
+          GOPALAKRISHNA A
+        </h2>
 
         {/* <h3 className="text-2xl auto-type">Mern Stack Developer|</h3> */}
-        <h3 className="font-bold text-3xl text-yellow-300">
+        <h3 className="font-bold text-3xl xs:text-2xl text-yellow-300">
           <Typewriter
             options={{
               strings: ["React Developer", "Mern Stack Developer"],
@@ -38,7 +40,7 @@ const MainPage = () => {
           />
         </h3>
 
-        <section className="flex gap-5 flex-wrap text-2xl text-[#78e687ea]">
+        <section className="flex gap-5 flex-wrap text-2xl xs:text-xl text-[#78e687ea]">
           <span className="elements">
             <ImHtmlFive2 />
           </span>
@@ -73,12 +75,12 @@ const MainPage = () => {
         data-aos-delay="300"
         className="flex-1 h-[100%] flex justify-center items-center"
       >
-        <div className="w-[70%] h-[70%]  rotate-45 bg-gradient-to-r from-[#E0C3FC] to-[#091e79] -translate-y-0 rounded-xl ">
+        <div className="w-[70%] h-[70%]  rotate-45 xs:rotate-0 bg-gradient-to-r from-[#E0C3FC] to-[#091e79] -translate-y-0 rounded-xl ">
           <div className="w-[95%] h-[95%] flex justify-center items-center">
             <img
               src={portImage}
               alt="A G KRISHNA IMAGE"
-              className="-rotate-45 w-full h-auto object-cover"
+              className="-rotate-45 xs:rotate-0 w-full h-auto object-cover"
             />
           </div>
         </div>
