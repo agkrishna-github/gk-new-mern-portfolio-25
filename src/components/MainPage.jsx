@@ -18,11 +18,11 @@ new Typewriter("#typewriter", {
 
 const MainPage = () => {
   return (
-    <section className="w-[85%] mx-auto xs:w-full xs:p-2 h-[calc(100vh-100px)] flex justify-center items-center xs:flex-col xs:gap-y-8 flex-wrap gap-x-5">
+    <section className="w-[85%] mx-auto xs:w-full xs:p-2 h-[calc(100vh-100px)] flex justify-center items-center xs:flex-col xs:gap-y-6 flex-wrap gap-x-5">
       <div
         data-aos="fade-up"
         data-aos-delay="300"
-        className="flex-1 h-[100%] flex flex-col justify-center gap-y-10 xs:w-[100%] xs:justify-start xs:pt-5"
+        className="flex-1 h-[100%] flex flex-col justify-center gap-y-10 xs:w-[100%]  xs:pt-5"
       >
         <h3 className="text-white font-medium text-xl ">👋 Hello, I am</h3>
         <h2 className="text-5xl font-bold animate-charcter xs:text-3xl">
