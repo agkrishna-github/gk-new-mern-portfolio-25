@@ -16,7 +16,7 @@ const Projects = () => {
   ];
   return (
     <section
-      className="py-5 bg-gradient-to-r from-[#263b9b] to-[#E0C3FC] text-white"
+      className="py-5 xs:py-8 bg-gradient-to-r from-[#263b9b] to-[#E0C3FC] text-white"
       name="projects"
     >
       <div className="w-[85%] mx-auto">

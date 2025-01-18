@@ -4,7 +4,7 @@ import { technogies } from "./technologyData";
 const Technologies = () => {
   return (
     <section
-      className="h-screen py-3 bg-gradient-to-r from-[#263b9b] to-[#E0C3FC] xs:h-auto"
+      className="h-screen py-3 xs:py-8 bg-gradient-to-r from-[#263b9b] to-[#E0C3FC] xs:h-auto"
       name="technologies"
     >
       <div className="w-[85%] mx-auto">
