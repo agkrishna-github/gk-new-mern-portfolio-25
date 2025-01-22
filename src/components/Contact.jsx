@@ -15,10 +15,10 @@ const Contact = () => {
 
   return (
     <section
-      className="bg-gradient-to-r from-[#0d1121] to-[#5b288a] h-screen xs:h-auto  flex justify-center items-center"
+      className="py-5 bg-gradient-to-r from-[#0d1121] to-[#5b288a] min-h-screen xs:h-auto  flex justify-center items-center overflow-hidden"
       name="contact"
     >
-      <div className="w-5/6 mx-auto  py-5 text-white">
+      <div className="w-5/6 mx-auto text-white">
         <h2
           data-aos="fade-right"
           className="py-2 my-5 text-3xl text-[#FEE715FF]"
