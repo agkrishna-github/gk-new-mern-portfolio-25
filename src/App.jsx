@@ -7,8 +7,6 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 function App() {
-  console.log("app.jsx render");
-
   useEffect(() => {
     AOS.init({
       duration: 2000,
