@@ -14,7 +14,7 @@ const Education = () => {
     >
       <h2
         data-aos="fade-right"
-        className="w-[85%] text-[#FEE715FF] mt-10 xs:mt-2 pt-12 text-3xl"
+        className="w-[85%] text-[#FEE715FF] xs:mt-2 pt-12 text-3xl"
       >
         Education
       </h2>
