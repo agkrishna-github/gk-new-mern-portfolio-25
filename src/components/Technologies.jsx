@@ -15,7 +15,7 @@ const Technologies = () => {
           Technologies
         </h3>
         <div
-          data-aos="fade-left"
+          data-aos="fade-up"
           className="min-h-[80%] p-2 shadow-lg shadow-black rounded"
         >
           <p className="px-3 py-5 text-white text-xl font-bold">

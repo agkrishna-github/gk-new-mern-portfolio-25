@@ -18,7 +18,7 @@ new Typewriter("#typewriter", {
 
 const MainPage = () => {
   return (
-    <section className="w-[85%] mx-auto xs:w-full xs:p-2 h-[calc(100vh-100px)] flex justify-center items-center xs:flex-col xs:gap-y-6 flex-wrap gap-x-5">
+    <section className="w-[85%] mx-auto xs:w-full xs:p-6 h-[calc(100vh-100px)] flex justify-center items-center xs:flex-col xs:gap-y-6 flex-wrap gap-x-5">
       <div
         data-aos="fade-up"
         data-aos-delay="300"

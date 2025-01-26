@@ -40,7 +40,7 @@ const Header = () => {
             backgroundColor: "lightblue",
             padding: "10px",
           }}
-          className="z-20  bg-gradient-to-r from-[#263b9b] to-[#E0C3FC] rounded-full"
+          className="z-20  bg-gradient-to-r from-[#263b9b] to-[#E0C3FC] rounded-full hover:cursor-pointer"
         >
           <Link to="home" spy={true} smooth={true} duration={500}>
             <span className="text-white text-2xl">
